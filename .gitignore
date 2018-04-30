@@ -1,0 +1,5 @@
+# Ignore all dot-files and dot-directories
+.*
+
+# Don't ignore this file
+!.gitignore
