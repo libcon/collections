@@ -2,7 +2,6 @@
 
 namespace LibCon\Collections;
 
-
 interface Collection extends \Traversable, \Countable
 {
 

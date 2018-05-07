@@ -2,7 +2,6 @@
 
 namespace LibCon\Collections\Properties;
 
-
 use LibCon\Collections\Collection;
 
 interface Filterable

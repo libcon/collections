@@ -2,7 +2,6 @@
 
 namespace LibCon\Collections;
 
-
 interface CollectionException
 {
 
