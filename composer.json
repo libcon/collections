@@ -1,0 +1,41 @@
+{
+  "name": "libcon/collections",
+  "description": "Collection contracts for improved library interoperability.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Bas Hamar de la Brethonière",
+      "email": "bas@basje.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/libcon/collections/issues",
+    "source": "https://github.com/libcon/collections/tree/develop"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "libcon/core": "0.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LibCon\\Collections\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LibCon\\Tests\\Collections\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "0.x-dev"
+    }
+  }
+}
