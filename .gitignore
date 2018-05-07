@@ -1,5 +1,21 @@
 # Ignore all dot-files and dot-directories
 .*
 
-# Don't ignore this file
+# Don't ignore this file and others like it
 !.gitignore
+
+# Ignore vendor dependencies
+/vendor/
+
+# Ignore reports from building and testing
+/build/
+
+# Ignore dependency lock file
+/composer.lock
+
+# Ignore local configuration files
+/phpcs.xml
+/phpmd.xml
+/phpstan.neon
+/phpunit.xml
+/psalm.xml
