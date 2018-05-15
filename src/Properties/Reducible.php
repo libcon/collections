@@ -8,5 +8,4 @@ interface Reducible
 {
 
     public function reduce(callable $reducer, $initial = null) : Collection;
-
 }

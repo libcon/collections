@@ -8,5 +8,4 @@ interface Filterable
 {
 
     public function filter(callable $filter) : Collection;
-
 }

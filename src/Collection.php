@@ -5,7 +5,9 @@ namespace LibCon\Collections;
 use Countable;
 use Traversable;
 
-use LibCon\Collections\Properties\{Filterable, Mappable, Reducible};
+use LibCon\Collections\Properties\Filterable;
+use LibCon\Collections\Properties\Mappable;
+use LibCon\Collections\Properties\Reducible;
 
 /**
  * Base contract for all collections. Does not have any inherent order unless
@@ -18,5 +20,4 @@ interface Collection extends Traversable, Countable, Filterable, Mappable, Reduc
 {
 
     public function isEmpty() : bool;
-
 }

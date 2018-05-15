@@ -8,5 +8,4 @@ interface Mappable
 {
 
     public function map(callable $mapper) : Collection;
-
 }
